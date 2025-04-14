@@ -62,7 +62,7 @@ def main():
 
     foundError = False
 
-    with open("case.txt", "r") as textFile:
+    with open("parseinput2.txt", "r") as textFile:
         case = textFile.readline().strip() + '$'
         while case != "$":
             print("\n" + case)
